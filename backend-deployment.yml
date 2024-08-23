@@ -21,3 +21,8 @@ spec:
         - name: backend
           image: okqkrwhdtjd/backend:latest
       terminationGracePeriodSeconds: 3
+      tolerations:
+        - key: abcd
+          operator: Equal
+          value: 1234
+          effect: NoSchedule
