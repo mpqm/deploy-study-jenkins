@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ~~~~:latest
+          image: okqkrwhdtjd/backend:latest
       terminationGracePeriodSeconds: 3
