@@ -15,8 +15,6 @@ spec:
       labels:
         type: backend
     spec:
-      nodeSelector:
-        kubernetes.io/hostname: worker2
       containers:
         - name: backend
           image: okqkrwhdtjd/backend:latest
